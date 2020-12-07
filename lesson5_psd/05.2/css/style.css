@@ -1,0 +1,110 @@
+body {
+    line-height: 24px;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 85px;
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: #ffae00;
+}
+
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+main {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    width: 49%;
+    display: inline-block;
+}
+
+.skills-count .line, .skills-count .number {
+    display: inline-block;
+}
+
+.skills-count .line {
+    background-color: #ffae00;
+    height: 5px;
+    vertical-align: bottom;
+}
+
+.skills-count .number {
+    width: 40px;
+    background-color: #ffae00;
+    color: #fff;
+    text-align: center;
+    margin-left: -5px;
+}
+
+.line.ps {
+    width: 90%;
+}
+
+.line.il {
+    width: 85%;
+}
+
+.line.hc {
+    width: 89%;
+}
+
+.line.wd {
+    width: 87%;
+}
+
+.line.ui-ux {
+    width: 92%;
+}
+
+button{
+    width: 171px;
+    height: 39px;
+    background-color: #ffae00;
+    border: none;
+    color: #fff;
+    margin-top: 59px;
+}
+
+footer {
+    height: 457px;
+    background-color: rgba(32,32,32,0.8705882352941177);
+    margin-top: 200px;
+    text-align: center;
+}
+
+footer img {
+    width: 81px;
+    height: 81px;
+    margin-bottom: 45px;
+    margin-top: 108px;
+}
+
+footer h2 {
+    color: #fff;
+    font-family: sans-serif;
+    margin-bottom: 39px;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer div {
+    display: inline-block;
+    width: 30%;
+    margin-left: 30px;
+}
