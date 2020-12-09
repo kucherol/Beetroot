@@ -1,0 +1,45 @@
+section {
+    display: inline-block;
+    margin-left: 25%;
+}
+
+.main {
+    display: inline-block;
+    width: 220px;
+    text-align: center;
+}
+
+.circle,
+.circle1,
+.circle2 {
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    }
+
+    .circle img,
+    .circle1 img,
+    .circle2 img {
+        margin: 25%;
+    }
+
+    .circle:hover, 
+    .circle1:hover,
+    .circle2:hover {
+        background-color: #2a69a6 ;
+        border: 1px solid #fff;
+    }
+
+    .circle img {
+        background-image: url('Dashbord1.png');
+    }
+
+    .circle1 img {
+        background-image: url('Settings1.png');
+    }
+
+    .circle2 img {
+        background-image: url('Tablet1.png');
+    }

@@ -1,0 +1,77 @@
+*{
+    transition: all .1s ease-in;
+    font-family: Trebuchet, Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(59,63,69);
+}
+
+h1,
+h2 {
+    color: rgb(235,126,126);
+    background-color: rgb(74,79,86);
+    text-align: center;
+    margin: 0px;
+}
+
+h1 {
+    padding-top: 20px;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+
+.main_form {
+    font-size: 25px;
+    display: inline-block;
+    width: 700px;
+    margin-left: 25%;
+    color: rgb(222, 222,222);
+}
+
+.imp {
+    margin: 0;
+    padding: 10px;
+}
+
+.imp:hover {
+    background-color: gray;
+    border: 2px solid black;
+}
+
+.imp:active {
+    background-color: black;
+}
+
+.g1 {
+    background-color: rgb(136, 131,158);
+}
+
+.g2 {
+    background-color: rgb(122,117,147);
+}
+
+.g3 {
+    background-color: rgb(98,94,119);
+    border-bottom: 3px solid rgb(222, 222,222);
+    border-top: 3px solid rgb(222, 222,222);
+}
+
+input:checked+label {
+    text-decoration: line-through;
+    color: rgb(152,156,181);
+}
+
+.bottom {
+    margin-top: 20px;
+    display: inline-block;
+    width: 700px;
+    margin-left: 25%;
+    padding: 20px 0;
+}
+
+span {
+    font-size: 15px;
+}
