@@ -1,0 +1,90 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+h1,
+h3 {
+    text-transform: uppercase;
+}
+.main {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.head-section {
+    margin: 143px 0 108px;
+    text-align: center;
+}
+
+.caption {
+    font-size: 12px;
+    letter-spacing: 5px;
+    line-height: 30px;
+    color: #898f99;
+    font-weight: 700;
+    margin-bottom: 35px;
+    margin-top: 140px;
+}
+
+.title {
+    font-size: 48px;
+    letter-spacing: 5px;
+    line-height: 30px;
+    color: #0ec8cb;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-bottom: 44px;
+}
+
+.sub-title {
+    max-width: 600px;
+    margin: 0 auto;
+    height: 65px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #999999;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.services {
+    text-align: center;
+}
+
+.service-item {
+    width: 236px;
+    height: 421px;
+    background-color: #f7f7f7;
+    border: 1px solid #ececec;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 138px;
+}
+
+.service-item img {
+    width: 66px;
+    height: 65px;
+}
+
+.service-item:hover {
+    color: white;
+    background-color: #0ec8cb;
+    border: 1px solid #0ec8cb;
+}
+
+.service-item .img-2 {
+    display: none;
+}
+
+.service-item:hover .img-2 {
+    display: block;
+    margin: auto;
+} 
+
+.service-item:hover .img-1 {
+    display: none;
+}
