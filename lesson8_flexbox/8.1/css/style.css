@@ -1,0 +1,62 @@
+.main {
+    background-color:rgb(253,222,126);
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 {
+    width: 360px;
+    height: 441px;
+    margin-top: 80px;
+}
+
+.card2 {
+    width: 360px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.card3 {
+    width: 360px;
+    height: 441px;
+    margin-top: 80px;
+}
+
+.price,
+.price2 {
+    height: 53px;
+    width: 52px;
+    margin-top: 42px;
+}
+
+.price2 {
+    margin-bottom: 43px;
+}
+
+.price3 {
+    height: 53px;
+    width: 91px;
+}
+
+.cup {
+    margin-top: 23px;
+    margin-bottom: 38px;
+    width: 135px;
+    height: 134px;
+}
+
+.title {
+    font-size: 33px;
+    color: #333333;
+    margin-bottom: 5px;
+}
