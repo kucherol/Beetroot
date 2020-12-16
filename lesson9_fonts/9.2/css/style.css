@@ -1,0 +1,113 @@
+.main {
+    width: 1200px;
+    background-color: #464f54;
+    margin: auto;
+}
+
+.main_title {
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: #767676;
+    font-family: "Proxima Nova";
+    margin-top: 51px;
+    margin-left: 64px;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.main_title2 {
+    display: inline-block;
+    font-size: 48px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Playfair Display";
+    margin-top: 13px;
+    margin-left: 64px;
+    margin-bottom: 20px;
+}
+
+.cursor {
+    display: inline-block;
+    width: 1px;
+    height: 44px;
+    border-left: 3px solid #fefefe;
+    margin-left: 20px;
+}
+hr {
+    margin-left: 64px;
+    background-color: #ffffff;
+}
+
+.title {
+    width: 876px;
+    height: 187px;
+    background-color: #181818;
+    margin-left: auto;
+}
+
+.tru {
+    position: relative;
+    top: 200px;
+}
+.icons {
+    width: 810px;
+    height: 76px;
+    background-color: #fbc02d;
+    margin-left: auto;
+    margin-top: 0;
+    display: flex;
+	align-items: center;
+}
+
+img {
+    height: 27px;
+    width: 28px;
+    margin-left: 32px;
+}
+
+.wrap {
+    background-color: #fff;
+    width: 1061px;
+    margin-left: 69px;
+    margin-right: 70px;
+    padding-top: 250px;
+}
+
+h3 {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #b4b4b4;
+    font-family: "Proxima Nova";
+}
+
+h1 {
+    font-size: 78px;
+    letter-spacing: 4px;
+    color: #2a2a2a;
+    font-family: "Futura PT";
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 62px;
+    color: #8f8f8f;
+    font-style: italic;
+    font-family: "Georgia";
+}
+
+.text {
+    width: 900px;
+    margin: auto;
+}
+
+.text p {
+    font-size: 27px;
+    line-height: 40px;
+    color: #000000;
+    font-family: "Georgia";
+    text-align: justify;
+}
+
+img:hover {
+    opacity: 0.5;
+}
