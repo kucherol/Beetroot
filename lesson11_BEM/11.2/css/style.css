@@ -1,0 +1,145 @@
+.Nike {
+  width: 800px;
+  height: 600px;
+  background-color: #cccccc;
+  background-image: url(../images/main\ bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+  background-color: #111a28;
+  width: 686px;
+  height: 391px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 32.5px rgba(0,0,0,0.82));
+  position: absolute;
+  top: 109px;
+  left: 63px;
+  padding: 0;
+}
+
+.card--image {
+  display: inline-block;
+  width: 60%;
+}
+
+.card--content {
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+  width: 39%;
+}
+
+.card--logo {
+  width: 65px;
+  height: 33px;
+  position: absolute;
+  top: 24px;
+  left: 21px;
+}
+
+.card--img {
+  width: 329px;
+  height: 159px;
+  position: absolute;
+  top: 126px;
+  left: 36px;
+}
+
+.card--header {
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #e1e1e1;
+  margin-top: 78px;
+}
+
+.card--subtitle {
+  width: 217px;
+  height: 30px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #e1e1e1;
+  margin-top: 16px;
+}
+
+.card--rate {
+  margin-top: 24px;
+}
+
+.card--rate__yellow {
+  color: yellow;
+}
+
+.option--item {
+  margin-top: 27px;
+  display:inline-block;
+  margin-left: 1px;
+  width: 69px;
+  height: 32px;
+  background-color: #111a28;
+  border: 1px solid #ffffff;
+}
+
+.option--item select {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: #e1e1e1;
+  height: 100%;
+  width: 100%;
+  border: none;
+  background-color: #111a28;
+}
+
+.card--subbutton {
+  margin-top: 27px;
+  width: 184px;
+  height: 40px;
+  background-color: #4c525a;
+  border: 1px solid #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: #e1e1e1;
+}
+
+.card--image_circle {
+  width: 9px;
+  margin-left: 9px;
+}
+
+.card--image_circle:hover {
+  transform: scale(1.4);
+}
+
+.image--circle {
+  text-align: center;
+}
+
+.card--subbutton:hover {
+  background-color: black;
+  color: white;
+}
+
+.card--image_circle__black {
+  color: #1f273f;
+}
+
+.card--image_circle__white {
+  color:#ffffff;
+}
+
+.card--image_circle__red {
+  color: #ed3333;
+}
+
+.card--image_circle__blue {
+  color: #29e3ea;
+}
