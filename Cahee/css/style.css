@@ -21,6 +21,15 @@ body {
   font-weight: 700;
 }
 
+.section__title--contact {
+  font-size: 90px;
+  color: #262626;
+  font-weight: 700;
+  font-family: "Raleway";
+  text-align: center;
+  margin-top: 153px;
+}
+
 .section__description {
   font-size: 17px;
   line-height: 1.59;
@@ -47,6 +56,9 @@ body {
 .section--about {
   padding: 70px 0;
   background-image: radial-gradient(circle at 0 0, #00c4c4, #00b7b7, #00adad, #009c9c), linear-gradient(to bottom, #00c4c4, #00c4c4);
+}
+.section--contact {
+  background: #fff url(../images/contact-bg.png) no-repeat center/cover;
 }
 
 .section__scroll-icon {
@@ -203,3 +215,120 @@ body {
 }
 
 /* Blog style end */
+
+/* Contact style start here */
+
+.contact__subtitle {
+  margin-bottom: 46px;
+  margin-top: 48px;
+  max-width: 420px;
+  color: #262626;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+
+.contact__form_input {
+  width: 500px;
+  height: 50px;
+  background-color: #00c4c4;
+  margin-bottom: 14px;
+  border: none;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+  padding: 20px;
+  opacity: 0.5;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+  text-align: start;
+ } 
+
+ textarea::-webkit-input-placeholder { 
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+  text-align: start;
+ }
+
+.contact__form_input:focus {
+  background-color: #039191;
+  border: none;
+  outline: none;
+  border-left: 5px solid #355b82;
+}
+
+.contact__form_input--message {
+  width: 500px;
+  height: 250px;
+  margin-bottom: 100px;
+}
+
+.contact__info--title {
+  font-size: 17px;
+  line-height: 25px;
+  color: #262626;
+  font-weight: 700;
+  font-family: "Raleway";
+  margin-bottom: 0px;
+}
+
+.contact__info--subtitle {
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+footer {
+  height: 90px;
+  background-color: #000;
+}
+
+.footer__rights {
+  font-size: 16px;
+  line-height: 25px;
+  color: #b9b9b9;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+
+.footer__logo {
+  font-size: 25px;
+  line-height: 25px;
+  color: #b9b9b9;
+  font-weight: 400;
+  font-family: "Pacifico";
+  text-align: center;
+  margin: 31px auto;
+}
+
+.footer__rights {
+  font-size: 12px;
+  line-height: 25px;
+  color: #b9b9b9;
+  font-weight: 300;
+  font-family: "Raleway";
+  margin: 31px auto;
+}
+
+.footer__producer {
+  font-size: 12px;
+  color: #b9b9b9;
+  font-weight: 300;
+  font-family: "Raleway";
+  text-align: right;
+  margin-top: 31px;
+}
+
+.love {
+  font-weight: 700;
+  color: red;
+}
