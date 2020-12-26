@@ -1,0 +1,273 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+  }
+
+  .header {
+    background: #fff url(../images/hero-bg.jpg.png) no-repeat center/cover;
+    height: 1072px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__logo {
+    width: 68px;
+    height: 71px;
+    margin-top: 284px;
+  }
+
+  .header__title {
+    font-size: 54px;
+    letter-spacing: 9px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    width: 591px;
+    text-transform: uppercase;
+    margin-top: 96px;
+  }
+
+  .header__subtitle {
+    width: 650px;
+    height: 70px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 29px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .header__scroll-icon {
+    margin-top: 244px;
+    width: 24px;
+    height: 39px;
+  }
+
+  .AboutUs {
+    height: 631px;
+  }
+
+  .AboutUs__border {
+    width: 903px;
+    border: 2px solid #3c3c3c;
+    border-top: none;
+    margin: auto;
+    margin-top: 146px;
+    
+  }
+
+  .AboutUs__title {
+    font-size: 34px;
+    letter-spacing: 5px;
+    color: #3c3c3c;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -40px;
+    position: relative;
+  }
+
+  .AboutUs__title::before {
+    content: "";
+    height: 2px;
+    background-color: #3c3c3c;
+    width: 250px;
+    position: absolute;
+    left: 0px;
+  }
+
+  .AboutUs__title::after {
+    content: "";
+    height: 2px;
+    background-color: #3c3c3c;
+    width: 250px;
+    position: absolute;
+    right: 0px;
+  }
+
+  .AboutUs__subtitle {
+    width: 553px;
+    height: 324px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3c3c3c;
+    font-weight: 300;
+    text-align: center;
+    margin: 30px 171px;
+    margin-top: 80px;
+  }
+
+  .services {
+    background: url(../images/services.jpg.png) no-repeat center/cover;
+    height: 488px;
+    position: relative;
+  }
+
+  .Services__border {
+    border-color: #fff;
+    height: 295px;
+    width: 903px;
+    margin-top: 115px;
+    position: absolute;
+    margin-left: 200px;
+  }
+
+  .services__title {
+    color: #ffffff;
+    position: relative;
+    top: 40px;
+  }
+
+  .services__subtitle {
+    width: 553px;
+    height: 324px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .services__title::before {
+    content: "";
+    background-color: #ffffff;
+  }
+
+  .services__title::after {
+    content: "";
+    background-color: #ffffff;
+  }
+
+  .wedo {
+    height: 1415px;
+    position: relative;
+  }
+
+  .wedo__border {
+    height: 1245px;
+    width: 903px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+  }
+
+  .wedo__subtitle {
+    width: 553px;
+    height: 324px;
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .wedo__icon--title {
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #3c3c3c;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .wedo__block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 112px;
+  }
+
+  .wedo__icon {
+    display: inline-block;
+    width: 80px;
+    height: 83px;
+    margin: auto;
+  }
+
+  .wedo__subtitle {
+    margin-top: 0px;
+    width: 553px;
+    height: 100px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #3c3c3c;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .offers__image-block {
+    display: inline-block;
+    width: 30%;
+    position: relative;
+  }
+
+  .offers__image-block--big {
+    display: inline-block;
+    width: 39%;
+    position: relative;
+  }
+
+  .offers__image--small {
+    width: 100%;
+    height: 235px;
+  }
+
+  .offers__image {
+    width: 100%;
+    height: 235px;
+  }
+
+  .offers__image-text {
+    font-size: 34px;
+    letter-spacing: 5px;
+    color: #fff;
+    font-weight: 700;
+    position: absolute;
+    top: 130px;
+    text-transform: uppercase;
+    left: 20px;
+  }
+
+  .contact__border {
+    height: 344px;
+    text-align: center;
+  }
+
+  .contact__subtitle {
+    height: 80px;
+    margin-bottom: 41px;
+  }
+
+  .contact__button {
+    width: 395px;
+    height: 58px;
+    background-color: #3c3c3c;
+    border: 2px solid #3c3c3c;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 62px;
+    margin-bottom: 65px;
+    position: relative;
+  }
+
+  .footer__logo {
+    width: 35px;
+    height: 37px;
+    color: #3c3c3c;
+    position: inherit;
+    top: 10px;
+  }
+
+  .footer__text {
+    font-size: 14px;
+    color: #3c3c3c;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 36px;
+  }
