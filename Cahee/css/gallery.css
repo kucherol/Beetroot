@@ -1,0 +1,65 @@
+.gallery__list {
+  margin-bottom: 20px;
+}
+.gallery__item {
+  margin-bottom: 10px;
+}
+.gallery img {
+  width: 100%;
+}
+.gallery img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.section--gallery {
+  background-color: #ffe92f;
+  padding: 96px 0 120px;
+}
+.section--subscribe {
+  height: 500px;
+  background: url(../images/subscribe.png) no-repeat center/cover;
+}
+
+.subscribe__main {
+  position: relative;
+}
+.subscribe__main--header {
+  position: absolute;
+  top: 145px;
+  font-size: 40px;
+  line-height: 27px;
+  color: #262626;
+  font-weight: 700;
+}
+.subscribe__main--text {
+  position: absolute;
+  top: 190px;
+  height: 50px;
+  font-size: 17px;
+  line-height: 27px;
+  color: #262626;
+  font-weight: 300;
+}
+.subscribe__main--input {
+  position: absolute;
+  top: 260px;
+  height: 56px;
+  width: 540px;
+}
+.subscribe__button {
+  position: absolute;
+  top: 260px;
+  width: 170px;
+  height: 55px;
+  filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
+  background-color: #96b92c;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  font-weight: 300;
+}
+.subscribe__button:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}

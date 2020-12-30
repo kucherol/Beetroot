@@ -134,6 +134,7 @@ body {
 
 /* Header style end */
 
+
 /* Blog style start */
 
 .section--blog {
@@ -396,5 +397,23 @@ footer {
   font-weight: 700;
   color: red;
 }
+
+.title--secondary {
+  color: #000;
+  margin-top: 30px;
+}
+
+.subtitle--secondary {
+  color: #000;
+  width: 630px;
+  height: 69px;
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 300;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 41px;
+}
+
 
 /* Contact form style end */
