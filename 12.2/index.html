@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Form</title>
+</head>
+<body>
+    <div class="main">
+        <div class="form">
+            <div class="content">
+                <a href="#" class="form__sign">Sign in</a>
+                <a href="#" class="form__join">Join us</a>
+                <form class="entrance" action="#" id="form1">
+                    <label class="entrance__label" for="name">Username</label>
+                    <input class="entrance__input" type="text" id="name" name="fname">
+                    <label class="entrance__label" for="pass">Password</label>
+                    <input class="entrance__input" type="password" id="pass" name="pass">
+                    <div class="checkbox">
+                        <input class="checkbox__input" type="checkbox" id="signed" name="signed" checked>
+                        <label class="checkbox__label" for="signed">Keep me signed in</label>
+                    </div>
+                    <button type="submit" form="form1" value="Submit">Sign in</button>
+                </form>
+                <a href="#" class="form__forgot">Forgot password</a>
+                <a href="#" class="form__forgot">Create an account</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

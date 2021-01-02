@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+.main {
+    font-family: "Quicksand";
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    padding: 69px;
+}
+
+.form {
+    margin: auto;
+    margin-top: 51px;
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(32deg, rgba(47,35,173,0.7) 0%, rgba(199,109,215,0.7) 100%), url(../images/bg.png) no-repeat center/cover;
+    &__sign {
+        font-size: 18px;
+        color: #fbf6e4;
+    }
+    &__join {
+        font-size: 18px;
+        color: #fbf6e4;
+        margin-left: 26px;
+    }
+    &__sign:hover,
+    &__join:hover {
+        border-bottom: 2px solid #e66a64;
+    }
+    .entrance {
+        margin-top: 25px;
+        position: relative;
+        &__label {
+            display: inline-block;
+            font-size: 16px;
+            color: #fbf6e4;
+            margin-bottom: 10px;
+            margin-top: 18px;
+        }
+        &__input {
+            width: 253px;
+            height: 42px;
+            background-color: rgba(229,238,238,0);
+            border: 2px solid rgba(191,185,204,0.54);
+        }
+    }
+    .checkbox {
+        margin-top: 21px;
+        &__label {
+            font-size: 13px;
+            color: #fbf6e4;
+        }
+        &__input {
+            width: 16px;
+            height: 16px;
+        }
+        &__input:checked {
+            background-color: #23ae92;
+        }
+    }
+    button {
+        width: 262px;
+        height: 42px;
+        background-color: #23ae92;
+        border:none;
+        font-size: 18px;
+        color: #fbf6e4;
+        font-weight: 700;
+        font-family: "Quicksand";
+        margin-top: 15px;
+        margin-bottom: 20px;
+        padding: 0;
+        &:hover {
+            cursor: pointer;
+            border: #23ae92;
+        }
+        &:focus {
+            border-color: #23ae92;
+        }
+    }
+    &__forgot {
+        font-size: 13px;
+        color: #b9b9cc;
+        font-weight: 400;
+        font-family: "Quicksand";
+        border-bottom: 1px solid #b9b9cc;
+        margin-left: 15px;
+    }
+}
