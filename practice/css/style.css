@@ -1,0 +1,234 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.button {
+  border-radius: 15px;
+  background-color: #fff;
+  width: 112px;
+  height: 30px;
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  color: #194277;
+  font-weight: 700;
+  margin-left: 50px;
+  border-style: none;
+}
+.button:hover {
+  transform: scale(1.1);
+}
+
+.subtitle {
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  width: 65%;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.cookies {
+  width: 100%;
+  background-color: #194277;
+  text-align: center;
+  padding: 20px;
+}
+.cookies__text {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.main-screen {
+  background: linear-gradient(51deg, #3595ff 0%, #3564fc 100%);
+}
+.main-screen__menu {
+  color: #fff;
+  text-align: right;
+  padding-top: 20px;
+  font-size: 30px;
+}
+.main-screen__photo {
+  width: 186px;
+  height: 186px;
+  background-color: #428CFE;
+  border-radius: 50%;
+  margin: auto;
+  padding: 11px;
+}
+.main-screen__photo--inner {
+  width: 164px;
+  height: 164px;
+  background-color: #589BFE;
+  border-radius: 50%;
+  margin: auto;
+  padding: 11px;
+}
+.main-screen__photo--inner-white {
+  width: 142px;
+  height: 142px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: auto;
+}
+.main-screen__title {
+  font-size: 50px;
+  letter-spacing: 1px;
+  line-height: 60px;
+  color: #fff;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+.main-screen__button {
+  display: block;
+  margin: auto;
+  width: 204px;
+  height: 55px;
+  border-radius: 27px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #3677fd;
+  text-align: center;
+  margin-top: 74px;
+}
+.main-screen__arrow {
+  color: #fff;
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.aboutme__title {
+  font-size: 50px;
+  line-height: 35px;
+  color: #3677fd;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 90px;
+}
+.aboutme__subtitle {
+  font-size: 16px;
+  line-height: 35px;
+  color: #5a5a5a;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.expert {
+  background-color: #f1f8ff;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+.expert__card-logo {
+  width: 139px;
+  height: 139px;
+  border-radius: 70px;
+  border: 1px solid #b7c0c9;
+  margin: auto;
+  margin-top: 70px;
+}
+.expert__card-logo--icon {
+  text-align: center;
+  margin-top: 25%;
+}
+.expert__card-logo--icon-form {
+  color: #3677fd;
+  font-size: 65px;
+}
+.expert__card-title {
+  font-size: 24px;
+  line-height: 24px;
+  color: #3677fd;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 60px;
+}
+.expert__card-subtitle {
+  font-size: 16px;
+  line-height: 35px;
+  color: #5a5a5a;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.works__title {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.works__item {
+  padding: 20px;
+  background-color: #f4f4f4;
+  margin-top: 50px;
+}
+.works__item-img {
+  width: 100%;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+.clients {
+  padding-bottom: 80px;
+  background-color: #f1f8ff;
+}
+.clients__title {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.clients__logo {
+  text-align: center;
+  margin-top: 40px;
+}
+.clients__logo--sams {
+  margin-top: 50px;
+}
+
+.hire {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: linear-gradient(51deg, #3595ff 0%, #3564fc 100%);
+}
+.hire__text {
+  font-size: 50px;
+  line-height: 65px;
+  font-weight: 300;
+}
+.hire__text--bold {
+  font-weight: 700;
+}
+.hire__button {
+  width: 204px;
+  height: 55px;
+  border-radius: 28px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #3677fd;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 576px) {
+  .cookies__button {
+    margin-left: 0px;
+  }
+
+  .main-screen__title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .subtitle {
+    width: 100%;
+  }
+}

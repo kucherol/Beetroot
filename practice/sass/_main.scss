@@ -1,0 +1,223 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.button {
+    @include button;
+    width: 112px;
+    height: 30px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    color: #194277;
+    font-weight: 700;
+    margin-left: 50px;
+    border-style: none;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.subtitle {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 35px;
+    color: $wh;
+    font-weight: 300;
+    text-align: center;
+    width: 65%;
+    margin:auto;
+    @include up;
+}
+
+.cookies {
+    width: 100%;
+    background-color: #194277;
+    text-align: center;
+    padding: 20px;
+    &__text {
+        font-size: 14px;
+        color: $wh;
+        font-weight: 400;
+        display: inline-block;
+    }
+}
+
+
+.main-screen {
+    background: linear-gradient(51deg, #3595ff 0%, #3564fc 100%);
+    &__menu {
+        color: $wh;
+        text-align: right;
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    &__photo {
+        width: 186px;
+        height: 186px;
+        background-color: #428CFE;
+        border-radius: 50%;
+        margin: auto;
+        padding: 11px;
+        &--inner {
+            width: 164px;
+            height: 164px;
+            background-color: #589BFE;
+            border-radius: 50%;
+            margin: auto;
+            padding: 11px;
+            &-white {
+                width: 142px;
+                height: 142px;
+                background-color: $wh;
+                border-radius: 50%;
+                margin: auto;
+            }
+        }
+    }
+    &__title {
+        font-size: 50px;
+        letter-spacing: 1px;
+        line-height: 60px;
+        color: $wh;
+        font-weight: 900;
+        text-align: center;
+        @include up;
+    }
+    &__button {
+        display: block;
+        margin: auto;
+        width: 204px;
+        height: 55px;
+        border-radius: 27px;
+        font-size: 16px;
+        line-height: 30px;
+        color: $main-color;
+        text-align: center;
+        margin-top: 74px;
+    }
+    &__arrow {
+        color: $wh;
+        font-size: 25px;
+        display: block;
+        text-align: center;
+        margin-top: 90px;
+    }
+}
+
+.aboutme {
+    &__title {
+        font-size: 50px;
+        line-height: 35px;
+        color: $main-color;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 90px;
+    }
+    &__subtitle {
+        font-size: 16px;
+        line-height: 35px;
+        color: #5a5a5a;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 100px;
+    }
+}
+
+.expert {
+    background-color: #f1f8ff;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    &__card-logo {
+        width: 139px;
+        height: 139px;
+        border-radius: 70px;
+        border: 1px solid #b7c0c9;
+        margin: auto;
+        margin-top: 70px;
+        &--icon {
+            text-align: center;
+            margin-top: 25%;
+            &-form {
+                color: $main-color;
+                font-size: 65px;
+            }
+        }
+    }
+    &__card-title {
+        font-size: 24px;
+        line-height: 24px;
+        color: $main-color;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 60px;
+    }
+    &__card-subtitle {
+        font-size: 16px;
+        line-height: 35px;
+        color: #5a5a5a;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+.works {
+    &__title {
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+    &__item {
+        padding: 20px;
+        background-color: #f4f4f4;
+        margin-top: 50px;
+        &-img {
+            width: 100%;
+            height: 200px;
+            display: block;
+            margin: auto;
+        }
+    }
+}
+
+.clients {
+    padding-bottom: 80px;
+    &__title {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    background-color: #f1f8ff;
+    &__logo {
+        text-align: center;
+        margin-top: 40px;
+        &--sams {
+            margin-top: 50px;
+        }
+    }
+}
+
+.hire {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(51deg, #3595ff 0%, #3564fc 100%);
+    &__text {
+        font-size: 50px;
+        line-height: 65px;
+        font-weight: 300;
+        &--bold {
+            font-weight: 700;
+        }
+    }
+    &__button {
+        width: 204px;
+        height: 55px;
+        border-radius: 28px;
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 30px;
+        color: $main-color;
+        font-weight: 700;
+    }
+}
