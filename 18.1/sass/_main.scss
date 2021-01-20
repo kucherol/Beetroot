@@ -1,0 +1,146 @@
+body {
+    background-color: #9789f9;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    margin-top: 40px;
+    margin-left: 19px;
+    position: relative;
+    width: 327px;
+    height: 611px;
+    filter: drop-shadow(2.424px 4.373px 29.5px #7a6be7);
+    background-color: #f5f4f9;
+    &__price {
+        margin-top: 35px;
+        position: relative;
+        text-align: center;
+        font-family: "Bebas Neue";
+        color: #181818;
+        line-height: 36px;
+        &--dollar {
+            font-size: 24px;
+            letter-spacing: 2px;
+            font-weight: 200;
+            position: absolute;
+            bottom: 27px;
+            left: 113px;
+        }
+        &--amount {
+            font-size: 60px;
+            letter-spacing: 5px;
+            font-weight: 200;
+        }
+        &--hr {
+            font-size: 16px;
+            letter-spacing: 1px;          
+            font-weight: 300;
+        }
+    }
+    &__title {
+        text-align: center;
+        font-size: 24px;
+        letter-spacing: 1px;
+        line-height: 36px;
+        color: #181818;
+        font-weight: 400;
+        font-family: "Bebas Neue";
+    }
+    &__info {
+        background-color: #fff;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        padding-top: 50px;
+        &--img {
+            font-size: 30px;
+            margin-left: 147px;
+            &-big {
+                margin-left: 168px;
+            }
+        }
+        &--text {
+            padding-left: 97px;
+            &-line {
+                font-size: 16px;
+                line-height: 53px;
+                color: #181818;
+                font-weight: 300;
+                font-family: "Roboto";
+            }
+        }
+    }
+    &__button {
+        position: absolute;
+        left: 20%;
+        bottom: -27px;
+        width: 203px;
+        height: 54px;
+        border-radius: 27px;
+        filter: drop-shadow(2.424px 4.373px 9px rgba(133,192,247,0.31));
+        background-color: #6fcffb;
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 53px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Bebas Neue";
+        border-style: none;
+        &--big {
+            filter: drop-shadow(2.424px 4.373px 9px rgba(253,141,123,0.31));
+            background-color: #fd8d7b;
+            position: static;
+            margin-left: 84px;
+        }
+    }
+    &__discount {
+        font-size: 11px;
+        color: #a9a9a9;
+        font-weight: 300;
+        font-family: "Roboto";
+        text-align: center;
+    }
+    &--big {
+        height: 692px;
+        width: 371px;
+    }
+    &__circle {
+        position: absolute;
+        left: 302px;
+        top: 27px;
+        width: 46px;
+        height: 46px;
+        border-radius: 23px;
+        background-color: #fd8d7b;
+        text-align: center;
+        &--text {
+            margin-top: 10px;
+            font-size: 24px;
+            color: #ffffff;
+            font-weight: 400;
+            font-family: "Bebas Neue";
+        }
+        &--small {
+            position: absolute;
+            left: 342px;
+            top: 15px;
+            width: 19px;
+            height: 19px;
+            border-radius: 23px;
+            background-color: #fd8d7b;
+        }
+        &--smaller {
+            position: absolute;
+            left: 360px;
+            top: 7px;
+            width: 7px;
+            height: 7px;
+            border-radius: 23px;
+            background-color: #fd8d7b;
+        }
+    }
+}
