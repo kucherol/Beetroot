@@ -1,0 +1,633 @@
+.main-button {
+  width: 225px;
+  height: 60px;
+  background-color: #5474fd;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Aleo";
+  text-transform: uppercase;
+}
+.main-button:hover {
+  background-color: #00b3ca;
+}
+
+.Secondary__title {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Aleo";
+}
+
+.header {
+  background: url(../images/view-bg.png) no-repeat center/cover;
+}
+.header__title {
+  padding-top: 265px;
+  font-size: 48px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Josefin Sans";
+  text-align: center;
+  text-transform: uppercase;
+}
+.header__subtitle {
+  padding-top: 15px;
+  font-size: 22px;
+  letter-spacing: 7px;
+  color: #ffffff;
+  font-weight: 200;
+  font-family: "Josefin Sans";
+  text-align: center;
+}
+.header__search-form {
+  padding-top: 49px;
+  text-align: center;
+}
+.header__search-form--input {
+  width: 500px;
+  height: 60px;
+  background-color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #999999;
+  font-family: "Josefin Sans";
+  text-align: center;
+  border: none;
+}
+.header__search-form--button {
+  width: 150px;
+  height: 60px;
+  background-color: #5474fd;
+  border: 2px solid #ffffff;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Aleo";
+  text-align: center;
+  margin-left: -5px;
+}
+.header__search-form--button-icon {
+  font-size: 16px;
+  margin-left: 15px;
+}
+.header__scroll {
+  font-size: 14px;
+  letter-spacing: 3px;
+  line-height: 26px;
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  text-align: center;
+  padding-top: 120px;
+}
+.header__arrow {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 120px;
+}
+.header-menu {
+  width: 100%;
+  height: 80px;
+  background-color: #5474fd;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+}
+.header-menu__logo {
+  display: inline-block;
+  font-size: 24px;
+  margin: 0;
+}
+.header-menu__logo--link {
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Josefin Sans";
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.header-menu__list {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 0;
+}
+.header-menu__list--item {
+  display: inline-block;
+  margin-left: 42px;
+}
+.header-menu__list--link {
+  text-align: right;
+  padding-left: 42px;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Aleo";
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.header-menu__list--link-first {
+  margin-left: 400px;
+}
+
+.WhyUs {
+  background: url(../images/castle-scape.png) no-repeat center/cover;
+}
+.WhyUs__title {
+  margin: 200px 0 60px 0;
+}
+.WhyUs__text {
+  font-size: 16px;
+  color: #e8e8e8;
+  font-family: "Josefin Sans";
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+.WhyUs__button {
+  margin: 45px 0 140px 0;
+}
+.WhyUs__img--top {
+  margin: 120px 0 5px 0;
+}
+.WhyUs__img--bottom {
+  margin-left: 20%;
+}
+
+.offer {
+  background-color: #333333;
+  text-align: center;
+  position: relative;
+}
+.offer__title {
+  color: #e8e8e8;
+  margin-top: 14px;
+}
+.offer__title--center {
+  margin: 14px 170px 0 170px;
+}
+.offer__search {
+  display: inline-block;
+  margin: 80px 0 80px 0;
+  text-align: center;
+}
+.offer__search--icon {
+  color: #5474fd;
+  font-size: 50px;
+  font-weight: 200;
+}
+.offer__select {
+  display: inline-block;
+  margin: 80px 0 80px 0;
+  text-align: center;
+}
+.offer__select--icon {
+  color: #ff6363;
+  font-size: 50px;
+  font-weight: 200;
+}
+.offer__book {
+  display: inline-block;
+  margin: 80px 0 80px 0;
+  text-align: center;
+}
+.offer__book--icon {
+  color: #00a2ff;
+  font-size: 50px;
+  font-weight: 200;
+}
+.offer__border {
+  display: inline-block;
+  width: 300px;
+  height: 150px;
+  border-top: 1px dotted gray;
+  -webkit-border-top-left-radius: 50%;
+          border-top-left-radius: 50%;
+  -webkit-border-top-right-radius: 50%;
+          border-top-right-radius: 50%;
+  position: absolute;
+}
+.offer__border-left {
+  top: 20px;
+  left: 26%;
+}
+.offer__border-right {
+  top: 20px;
+  right: 26%;
+}
+
+.spain {
+  background: url(/images/spanish-loft.png) no-repeat center/cover;
+  padding: 220px 0 100px 0;
+}
+.spain__background {
+  background-color: #232323;
+  opacity: 0.8;
+  padding: 32px;
+}
+.spain__subtitle {
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #e8e8e8;
+  font-weight: 200;
+  font-family: "Josefin Sans";
+  margin-bottom: 30px;
+}
+.spain__title {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 100;
+  font-family: "Josefin Sans";
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.spain__text {
+  font-size: 16px;
+  color: #e8e8e8;
+  font-family: "Josefin Sans";
+  margin-bottom: 45px;
+  font-weight: 200;
+}
+.spain__button {
+  margin-bottom: 50px;
+  background-color: #5474fd;
+}
+
+.spain-view {
+  background: url(/images/sea-rocks.png) no-repeat center/cover;
+  padding: 220px 0 100px 0;
+}
+
+.review {
+  background: url(/images/view-rocks.png) no-repeat center/cover;
+  padding: 120px 0 200px 0;
+}
+.review__title {
+  text-align: center;
+  margin-bottom: 90px;
+}
+.review__card {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.review__card--text {
+  background-color: #333333;
+  padding: 49px 54px 0px 50px;
+}
+.review__card--text-header {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #fefefe;
+  font-weight: 200;
+  font-family: "Josefin Sans";
+  margin-bottom: 30px;
+}
+.review__card--text-info {
+  font-size: 16px;
+  color: #e8e8e8;
+  font-family: "Josefin Sans";
+  text-indent: 26px;
+}
+.review__card--text .quotes {
+  font-size: 20px;
+  color: #5474fd;
+}
+
+.footer {
+  background-color: #232323;
+  padding: 120px 0 50px 0;
+  text-align: center;
+}
+.footer__info--logo {
+  font-size: 24px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Josefin Sans";
+  text-transform: uppercase;
+}
+.footer__info--subtitle {
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  font-weight: 200;
+  font-family: "Josefin Sans";
+  text-align: center;
+}
+.footer__info--socials {
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 26px;
+}
+.footer__info--socials .social-icon {
+  margin: 0 9px 0 9px;
+  color: #e8e8e8;
+}
+.footer__info--socials .social-icon:hover {
+  color: #5474fd;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  .header-menu {
+    height: 150px;
+  }
+  .header-menu__list--link-first {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .header-menu__logo--link {
+    margin-left: 35px;
+  }
+
+  .offer__border {
+    display: none;
+  }
+  .offer__title--center {
+    margin: 0 50px 0 50px;
+  }
+
+  .spain {
+    padding: 110px 0 70px 0;
+  }
+  .spain-view {
+    padding: 110px 0 70px 0;
+  }
+
+  .review {
+    padding: 100px 0 140px 0;
+  }
+  .review__card--text {
+    padding: 20px;
+  }
+  .review__card--text-header {
+    font-size: 15px;
+    margin-bottom: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-button {
+    width: 180px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 200;
+  }
+
+  .WhyUs__title {
+    margin: 80px 0 30px 0;
+  }
+  .WhyUs__img--bottom {
+    margin-left: 0;
+  }
+
+  .offer__title {
+    font-size: 24px;
+  }
+  .offer__title--center {
+    margin: 14px 20px 0 20px;
+  }
+  .offer__search {
+    margin: 40px 0 40px 0;
+  }
+  .offer__search--icon {
+    font-size: 30px;
+  }
+  .offer__select {
+    margin: 40px 0 40px 0;
+  }
+  .offer__select--icon {
+    font-size: 30px;
+  }
+  .offer__book {
+    margin: 40px 0 40px 0;
+  }
+  .offer__book--icon {
+    font-size: 30px;
+  }
+
+  .spain {
+    padding: 70px 0 40px 0;
+  }
+  .spain__background {
+    padding: 10px;
+  }
+  .spain__subtitle {
+    margin-bottom: 10px;
+  }
+  .spain__title {
+    margin-bottom: 10px;
+  }
+  .spain-view {
+    padding: 70px 0 40px 0;
+  }
+  .spain-view__button {
+    margin-bottom: 10px;
+  }
+  .spain-view__text {
+    margin-bottom: 10px;
+  }
+  .spain__button {
+    margin-bottom: 10px;
+  }
+  .spain__text {
+    margin-bottom: 10px;
+  }
+
+  .review__card--text-header {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  .review__card--text-info {
+    font-size: 11px;
+    text-indent: 20px;
+  }
+  .review__card--text .quotes {
+    font-size: 15px;
+  }
+  .review__card--img-photo {
+    width: 50vw;
+  }
+}
+@media screen and (max-width: 375px) {
+  .Secondary__title {
+    text-align: center;
+  }
+
+  .main-button {
+    display: block;
+    margin: auto;
+  }
+
+  .header__title {
+    padding-top: 120px;
+    font-size: 25px;
+    font-weight: 400;
+  }
+  .header__subtitle {
+    padding-top: 10px;
+    font-size: 12px;
+  }
+  .header__search-form {
+    padding-top: 25px;
+  }
+  .header__search-form--input {
+    width: 200px;
+    height: 40px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    display: block;
+    margin: auto;
+  }
+  .header__search-form--button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-size: 12px;
+    font-weight: 200;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .header__search-form--button-icon {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .header__scroll {
+    padding-top: 45px;
+  }
+  .header__arrow {
+    padding-bottom: 40px;
+  }
+  .header-menu {
+    height: 150px;
+  }
+  .header-menu__list--link-first {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .header-menu__logo--link {
+    margin-left: 35px;
+  }
+
+  .WhyUs__title {
+    margin: 30px 0 10px 0;
+  }
+  .WhyUs__img--top {
+    margin: 35px 0 5px 0;
+  }
+
+  .offer__title {
+    font-size: 34px;
+  }
+  .offer__title--center {
+    margin: 14px 10px 0 10px;
+  }
+  .offer__search {
+    margin: 20px 0 20px 0;
+  }
+  .offer__search--icon {
+    font-size: 34px;
+  }
+  .offer__select {
+    margin: 20px 0 20px 0;
+  }
+  .offer__select--icon {
+    font-size: 34px;
+  }
+  .offer__book {
+    margin: 20px 0 20px 0;
+  }
+  .offer__book--icon {
+    font-size: 34px;
+  }
+
+  .review__card {
+    padding: 0;
+    margin: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+  }
+  .review__card--img {
+    padding: 0;
+    margin: 0;
+  }
+  .review__card--text {
+    width: 90vw;
+  }
+  .review__card--text-header {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  .review__card--img-photo {
+    display: block;
+    width: 90vw;
+  }
+}

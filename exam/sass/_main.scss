@@ -1,0 +1,326 @@
+.main-button {
+    width: 225px;
+    height: 60px;
+    background-color: $primary-color;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: $secondary-font-family;
+    text-transform: uppercase;
+    &:hover {
+        background-color: #00b3ca;
+    }
+}
+
+.Secondary__title{
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: $secondary-font-family;
+}
+
+.header {
+    background: url(../images/view-bg.png) no-repeat center/cover;
+    &__title {
+        padding-top: 265px;
+        font-size: 48px;
+        letter-spacing: 5px;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: $main-font-family;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__subtitle {
+        padding-top: 15px;
+        font-size: 22px;
+        letter-spacing: 7px;
+        color: #ffffff;
+        font-weight: 200;
+        font-family: $main-font-family;
+        text-align: center;
+    }
+    &__search-form {
+        padding-top: 49px;
+        text-align: center;
+        &--input {
+            width: 500px;
+            height: 60px;
+            background-color: #ffffff;
+            font-size: 14px;
+            letter-spacing: 3px;
+            color: #999999;
+            font-family: $main-font-family;
+            text-align: center;
+            border: none;
+        }
+        &--button {
+            width: 150px;
+            height: 60px;
+            background-color: $primary-color;
+            border: 2px solid #ffffff;
+            font-size: 14px;
+            letter-spacing: 1px;
+            color: #ffffff;
+            font-weight: 400;
+            font-family: $secondary-font-family;
+            text-align: center;
+            margin-left: -5px;
+            &-icon {
+                font-size: 16px;
+                margin-left: 15px;
+            }
+        }
+    }
+    &__scroll {
+        font-size: 14px;
+        letter-spacing: 3px;
+        line-height: 26px;
+        color: #ffffff;
+        font-family: $main-font-family;
+        text-align: center;
+        padding-top: 120px;
+    }
+    &__arrow {
+        font-size: 14px;
+        color: #fff;
+        text-align: center;
+        padding-bottom: 120px;
+    }
+    &-menu {
+        width: 100%;
+        height: 80px;
+        background-color: $primary-color;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+        &__logo {
+            display: inline-block;
+            font-size: 24px;
+            margin: 0;
+            &--link {
+                letter-spacing: 2px;
+                color: #ffffff;
+                font-weight: 700;
+                font-family: $main-font-family;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+        }
+        &__list {
+            display: inline-block;
+            list-style: none;
+            margin-bottom: 0;
+            &--item {
+                display: inline-block;
+                margin-left: 42px;
+            }
+            &--link {
+                text-align: right;
+                padding-left: 42px;
+                font-size: 14px;
+                color: #ffffff;
+                font-weight: 400;
+                font-family: $secondary-font-family;
+                text-decoration: none;
+                text-transform: uppercase;
+                &-first {
+                    margin-left: 400px;
+                }
+            }
+        }
+    }
+}
+
+.WhyUs {
+    background: url(../images/castle-scape.png) no-repeat center/cover;
+    &__title {
+        margin: 200px 0 60px 0;
+    }
+    &__text {
+        @include card_text-style;
+        letter-spacing: 2px;
+        font-weight: 200;
+    }
+    &__button {
+        margin: 45px 0 140px 0;
+    }
+    &__img {
+        &--top {
+            margin: 120px 0 5px 0;
+        }
+        &--bottom {
+            margin-left: 20%;
+        }
+    }
+}
+
+.offer {
+    background-color: #333333;
+    text-align: center;
+    position: relative;
+    &__title {
+        color: #e8e8e8;
+        margin-top: 14px;
+        &--center {
+            margin: 14px 170px 0 170px ;
+        }
+    }
+    &__search {
+        display: inline-block;
+        margin: 80px 0 80px 0;
+        text-align: center;
+        &--icon {
+            color: $primary-color;
+            font-size: 50px;
+            font-weight: 200;
+        }
+    }
+    &__select {
+        display: inline-block;
+        margin: 80px 0 80px 0;
+        text-align: center;
+        &--icon {
+            color:  #ff6363;
+            font-size: 50px;
+            font-weight: 200;
+        }
+    }
+    &__book {
+        display: inline-block;
+        margin: 80px 0 80px 0;
+        text-align: center;
+        &--icon {
+            color:#00a2ff;
+            font-size: 50px;
+            font-weight: 200;
+        }
+    }
+    &__border {
+        display: inline-block;
+        width: 300px;
+        height: 150px;
+        border-top: 1px dotted gray;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        position: absolute;
+        &-left {
+            top: 20px;
+            left: 26%;
+        }
+        &-right {
+            top: 20px;
+            right: 26%;
+        }
+    }
+}
+
+.spain {
+    background: url(/images/spanish-loft.png) no-repeat center/cover;
+    padding: 220px 0 100px 0;
+    &__background {
+        background-color: #232323;
+        opacity: 0.8;
+        padding: 32px;
+    }
+    &__subtitle {
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: #e8e8e8;
+        font-weight: 200;
+        font-family: $main-font-family;
+        margin-bottom: 30px;
+    }
+    &__title {
+        font-size: 20px;
+        color: #ffffff;
+        font-weight: 100;
+        font-family: $main-font-family;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+    &__text {
+        @include card_text-style;
+        margin-bottom: 45px;
+        font-weight: 200;
+    }
+    &__button {
+        margin-bottom: 50px;
+        background-color: $primary-color;
+    }
+}
+
+.spain-view {
+    background: url(/images/sea-rocks.png) no-repeat center/cover;
+    padding: 220px 0 100px 0;
+}
+
+.review {
+    background: url(/images/view-rocks.png) no-repeat center/cover;
+    padding: 120px 0 200px 0;
+    &__title {
+        text-align: center;
+        margin-bottom: 90px;
+    }
+    &__card {
+        display: flex;
+        &--text {
+            background-color: #333333;
+            padding: 49px 54px 0px 50px;
+            &-header {
+                text-transform: uppercase;
+                font-size: 20px;
+                color: #fefefe;
+                font-weight: 200;
+                font-family: $main-font-family;
+                margin-bottom: 30px;
+            }
+            &-info {
+                @include card_text-style;
+                text-indent: 26px;
+                }
+            .quotes {
+                font-size: 20px;
+                color: $primary-color;
+            }
+        }   
+    }
+}
+
+.footer {
+    background-color: #232323;
+    padding: 120px 0 50px 0;
+    text-align: center;
+    &__info {
+        &--logo {
+            font-size: 24px;
+            letter-spacing: 3px;
+            color: #ffffff;
+            font-weight: 700;
+            font-family: $main-font-family;
+            text-transform: uppercase;
+        }
+        &--subtitle {
+            font-size: 16px;
+            letter-spacing: 2px;
+            color: #ffffff;
+            font-weight: 200;
+            font-family: $main-font-family;
+            text-align: center;
+        }
+        &--socials {
+            font-size: 16px;
+            letter-spacing: 2px;
+            line-height: 26px;
+            .social-icon {
+                margin: 0 9px 0 9px;
+                color: #e8e8e8;
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}
