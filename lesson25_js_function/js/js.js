@@ -52,7 +52,7 @@ square(10, 5);
 
 /* 5 */
 
-function perfectNum(n) {
+/*function perfectNum(n) {
     let m;
     let sum = 0;
     for (let i = 1; i < n - 1; i++) {
@@ -74,7 +74,7 @@ function perfectNum(n) {
 
 /* 6 */
 
-function diapasone(a, b) {
+/*function diapasone(a, b) {
     for (let i = a; i <= b; i++) {
         if (perfectNum(i) === 'Perfect number') {
         console.log(i ,perfectNum(i));
@@ -84,3 +84,32 @@ return;
 }
 
 diapasone(2, 10);
+*/
+
+/* 7 */
+
+/*function hours(a, b, c) {
+    if (a > 24 || b > 60 || c > 60) {
+        console.log('Wrong hours');
+    }
+    if (b === undefined || c === undefined) {
+        b = '00';
+        c = '00';
+    }
+    console.log(a + ':' + b + ':' + c);
+    return;
+}
+
+hours(10,10);*/
+
+/* 8 */
+
+/*function hours(a, b, c) {
+    if (a > 24 || b > 60 || c > 60) {
+        console.log('Wrong hours');
+    }
+    console.log(a*3600+b*60+c);
+    return;
+}
+
+hours(10,10,10);*/
