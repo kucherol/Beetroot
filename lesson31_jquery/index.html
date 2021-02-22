@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>jQuery</title>
+</head>
+<body>
+    <section class="main">
+        <div class="card">
+            <div class="tabs">
+                <ul class="tabs__list">
+                    <li class="tabs__list--item information"><i class="far fa-list-alt tabs__list--item-img information--fa"></i><p class="tabs__list--item-text information--text">INFORMATION</p></li>
+                    <li class="tabs__list--item ratings"><i class="far fa-heart tabs__list--item-img ratings--fa"></i><p class="tabs__list--item-text ratings--text">RATINGS INFO</p></li>
+                    <li class="tabs__list--item buy"><i class="fas fa-shopping-basket tabs__list--item-img buy--fa"></i><p class="tabs__list--item-text buy--text">WHERE TO BUY</p></li>
+                </ul>
+            </div>
+            <div class="card__main">
+                <div class="card__main--left">
+                    <img class="card__main--img" src="img/poster.png" alt="poster">
+                    <div class="card__main--rate">
+                        <i class="fas fa-star fas--yellow"></i>
+                        <i class="fas fa-star fas--yellow"></i>
+                        <i class="fas fa-star fas--yellow"></i>
+                        <i class="fas fa-star fas--yellow"></i>
+                        <i class="fas fa-star fas--none"></i>
+                    </div>  
+                </div>
+                <div class="card__main--right">
+                    <h1 class="card__main--title">FarCry 4</h1>
+                    <h4 class="card__main--subtitle">First Released Nov 17, 2014</h4>
+                    <p class="card__main--info">In Far Cry 4, players find themselves in Kyrat, a breathtaking, perilous and wild region of the Hima
+                    layas struggling under the regime of a despotic self-appointed king.</p>
+                    <div class="card__main--price">
+                        <p class="card__main--price-discount">20% OFF!</p>
+                        <p class="card__main--price-dol">$59.96</p>
+                    </div>
+                    <button type="submit" class="card__main--button">BUY IT NOW</button>
+                </div>
+            </div>
+            <div class="card__second">
+                <img class="card__second--img" src="img/second.png" alt="pic">
+            </div>
+            <div class="card__third">
+                <img class="card__third--img" src="img/florian.png" alt="pic">
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
