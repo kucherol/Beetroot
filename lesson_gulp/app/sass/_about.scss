@@ -1,0 +1,104 @@
+.about {
+    padding: 80px 0 80px 0;
+    &__content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        &-item {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 80px;
+        }
+        &--left {
+            width: 35%;
+            text-align: right;
+        }
+        &--center {
+            width: 18%;
+            &-img {
+                width: 168px;
+                height: 168px;
+                border-radius: 50%;
+                border: 7px solid #f1f1f1;
+            }
+            &-0 {
+                background: url(../images/about1.png) center center/cover;
+            }
+            &-1 {
+                background: url(../images/about2.png) center center/cover;
+            }
+            &-2 {
+                background: url(../images/about3.png) center center/cover;
+            }
+            &-3 {
+                background: url(../images/about4.png) center center/cover;
+            }
+            &-4 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $main-color;
+                font-size: 18px;
+                letter-spacing: 0px;
+                color: #ffffff;
+                font-weight: 700;
+                font-family: "Montserrat";
+                text-align: center;
+                filter: drop-shadow(0px 1px 0.5px rgba(0,0,0,0.7));
+                text-transform: uppercase;
+            }
+        }
+        &--right {
+            width: 35%;
+            text-align: left;
+        }
+        &--title {
+            font-size: 18px;
+            letter-spacing: 0px;
+            color: #222222;
+            font-weight: 700;
+            font-family: "Montserrat";
+            text-transform: uppercase;
+            margin: 0;
+        }
+        &--subtitle {
+            font-size: 18px;
+            letter-spacing: 0px;
+            color: #222222;
+            font-weight: 700;
+            font-family: "Montserrat";
+            margin: 0;
+        }
+        &--text {
+            font-size: 14px;
+            letter-spacing: 0px;
+            color: #777777;
+            font-weight: 400;
+            font-family: "Roboto Slab";
+        }
+        &--line {
+            width: 2px;
+            height: 85px;
+            background-color: #f1f1f1;
+            position: absolute;
+            &-1 {
+                left: 49.5%;
+                top: 260px;
+            }
+            &-2 {
+                left: 49.5%;
+                top: 520px;
+            }
+            &-3 {
+                left: 49.5%;
+                top: 780px;
+            }
+            &-4 {
+                left: 49.5%;
+                top: 1045px;
+            }
+        }
+    }
+}
