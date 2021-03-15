@@ -1,0 +1,105 @@
+.companies {
+    text-align: center;
+    margin-bottom: 40px;
+    &--item {
+        margin: 10px;
+    }
+}
+
+.map-img {
+    position: absolute;
+    top: 150px;
+    right: -60%;
+    height: 400px;
+    width: 100%;
+    
+}
+
+.section {
+    &__contact {
+        background-color: #000;
+        padding: 80px 0 80px 0;
+        position: relative;
+        overflow: hidden;
+    }
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 50px;
+    margin-top: 70px;
+    &__item {
+        text-align: center;
+        &--name {
+            font-size: 12px;
+            width: 70%;
+            height: 30px;
+            border-radius: 2px;
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        &--email {
+            width: 70%;
+            height: 30px;
+            border-radius: 2px;
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            font-size: 12px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        &--sub {
+            width: 70%;
+            height: 30px;
+            border-radius: 2px;
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+        &--textarea {
+            width: 70%;
+            height: 155px;
+            border-radius: 2px;
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+    }
+    &__title {
+        color: #ffffff;
+    }
+    &__button {
+        text-transform: uppercase;
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+    }
+}
+
+.footer {
+    &__copyrights {
+        display: inline-block;
+        font-size: 14px;
+        letter-spacing: 0px;
+        line-height: 22px;
+        color: #555555;
+        font-weight: 400;
+        font-family: "Montserrat";
+        text-align: left;
+        margin: 30px 0px 30px 150px;
+    }
+    &__socials {
+        display: inline-block;
+        margin-left: 16%;
+        &-item {
+            display: inline-block;
+            margin-left: 15px;
+        }
+    }
+}
